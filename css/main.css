@@ -1,0 +1,165 @@
+/****Base Styles****/
+body{
+  background-color: #1c2147;
+  color: #ffffff;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+body h3{
+  color: #fa0075;
+  font-family: 'source code pro', monospace;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+/****Grid****/
+.full-width{
+  box-sizing: border-box;
+  overflow: auto;
+  width: 1500px;
+}
+.half-width{
+  box-sizing: border-box;
+  float: left;
+  width: 750px;
+}
+.third-width{
+  box-sizing: border-box;
+  float: left;
+  width: 500px;
+}
+
+/****Header****/
+header{
+  background-image: url('../img/aurora-borealis.jpg');
+  background-size: cover;
+  height: 500px;
+}
+header h1{
+  font-size: 30px;
+  font-weight: normal;
+  padding-left: 20px;
+}
+header h2{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 50px;
+  text-align: right;
+}
+header h2 span{
+  color: #71f0ff;
+}
+nav {
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  color: #ffffff;
+  font-size: 30px;
+  padding-left: 60px;
+  text-decoration: none;
+}
+
+/****Projects Section****/
+.project{
+  overflow: auto;
+  padding-bottom: 30px;
+}
+.left{
+  text-align: right;
+}
+.right{
+  clear: right;
+  text-align: left;
+}
+#work{
+  padding-bottom: 30px;
+  text-align: center;
+}
+#work img{
+  height: auto;
+  padding: 20px;
+  width: 600px;
+}
+#work h5{
+  font-size: 24px;
+  font-weight: bold;
+}
+#work p{
+  font-size: 24px;
+}
+#work a{
+  color: #ffffff;
+  text-decoration: none;
+}
+#work p a{
+  color: #fa0075;
+}
+
+
+/****About Section****/
+#about{
+  background-image: url('../img/landscape-laptop.jpg');
+  background-size: cover;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#about h3{
+  background-color: black;
+}
+#about h5{
+  font-size: 24px;
+  padding-right: 20px;
+  text-align: right;
+}
+#about p{
+  font-size: 24px;
+  padding-right: 20px;
+  text-align: right;
+}
+#about img{
+  height: auto;
+  width: 300px;
+}
+
+/****Contact Section****/
+#contact{
+  padding-bottom: 10px;
+  text-align: center;
+}
+#contact h5{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+#contact p{
+  font-size: 24px;
+  line-height: 40px;
+}
+#contact ul{
+  list-style: none;
+  padding-left: 0;
+  padding-top: 10px;
+}
+#contact ul li{
+  display: inline-block;
+  padding-left: 20px;
+}
+#contact i{
+  font-size: 40px;
+  padding-right: 15px;
+}
+#contact a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/****Footer****/
+#contact h6{
+  clear: both;
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 40px;
+}
